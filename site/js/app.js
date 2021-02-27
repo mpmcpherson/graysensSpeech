@@ -367,88 +367,8 @@ function loadUI(){
 
   //swap between all events, and events 
 }
+function loadWord(){
 
-function login(){
-
-  let data = JSON.stringify({ 
-    "userName" : document.getElementById("username").value,
-    "userPass" : document.getElementById("userPass").value
-  });
-  postRequest('resources/login.php',function(response){
-    try{
-      let result = JSON.parse(response);
-      let loginSignup = document.getElementById("login_signup");
-      let container = document.getElementById("container");
-      window.localStorage.setItem("userId",result[1]);
-      window.localStorage.setItem("sessionToken",result[2]);
-      loadUI();
-
-      container.style.display = "flex";
-      loginSignup.style.display = "none";
-      return true;
-    }catch(e){
-      console.log(e);
-    }
-  },function(response){
-    try{
-      console.log(response);
-    }catch(e){
-      console.log(e);
-    }
-  },
-  data
-  );
-  return false;
-}
-
-function register(){
-  //this is gonna be a little involved
-  //and I'm going to need to use the google recaptcha project to 
-  //display the recaptcha panel when the user clicks the 
-  //btn for signing up
-
-  let data = JSON.stringify({ 
-    "userName" : document.getElementById("username").value,
-    "userPass" : document.getElementById("userPass").value
-  });
-  postRequest('resources/createuser.php',function(response){
-    try{
-      //window.location.reload(false); 
-    }catch(e){
-      console.log(e);
-    }
-  },function(response){
-    try{
-      console.log(response);
-      alert("there was an issue creating your account: ".response);
-    }catch(e){
-      console.log(e);
-    }
-  },
-  data
-  );
-}
-
-function loginOrRegister(){
-  //hide wrapper and its contents; 
-  //show login modal; 
-  let loginSignup = document.getElementById("login_signup");
-  let container = document.getElementById("container");
-  container.style.display = "none";
-  loginSignup.style.display = "flex";
-
-  let loginBtn = document.getElementById("login_btn");
-  let signupBtn = document.getElementById("signup_btn");
-  
-  loginBtn.addEventListener("click",function(){
-    login();
-  });
-
-  signup_btn.addEventListener("click",function(){
-    register();
-    //I should probably set this up to dynamically handle whatever the fuck gets pulled back from the signup process
-
-  });  
 }
 
 
@@ -456,11 +376,6 @@ docReady(function() {
   globalClickListener();
   keypressListener();
 
-  loginOrRegister();
+  loadUI();
 
 });
-
-//192.168.1.127
-
-//192.168.1.124
-
