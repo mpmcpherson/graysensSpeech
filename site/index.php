@@ -35,8 +35,12 @@
 						<td><div id="showHideEvents" class="button" style="display: none;">show/hide events</div></td>
 					</tr></table>
 				</div>
-				<div id="dueToday"></div>
 				<div>
+					<div id="wordBank" ondrop="drop(event)" ondragover="allowDrop(event)">
+						<!--for each word element <div id="drag1" draggable="true" ondragstart="drag(event)"> </div>-->
+
+					</div>
+					<div id="partsOfSpeechBank" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 					<textarea style="display: none; height: 85vh; width: 100%; background-color: #1D252B; color: white;"></textarea>
 				</div>
 				<a href="mailto:" style="width: 100%; display: none;"><button style="width: 100%; background-color: red;">>send it!<</button></a>
