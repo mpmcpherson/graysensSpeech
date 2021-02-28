@@ -39,7 +39,7 @@
 				<div>
 					<textarea style="display: flex; height: 85vh; width: 100%; background-color: #1D252B; color: white;"></textarea>
 				</div>
-				<a href="mailto:" style="width: 100%;"><button style="width: 100%; background-color: red;">>send it!<</button></a>
+				<a href="mailto:" style="width: 100%; display: none;"><button style="width: 100%; background-color: red;">>send it!<</button></a>
 			</div>
 			<div class="rightBar full" id="rightBar" style="display: none;">
 				<button id="addEvent" class="staggeredButtons" style="background-color: red;">Add Event</button>
