@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 	<?php require 'resources/uiConfig.php';?>
@@ -17,7 +18,7 @@
 		</div>
 
 		<div class="wrapper ninety" id="container">
-			<div class="leftBar full" id="leftBar">
+			<div class="leftBar full" id="leftBar" style="display: none;">
 				<div class="titleBorder"style="font-weight: bold;">
 					<button id="addPerson" class="staggeredButtons" style="background-color: red;">Add person</button>
 					<br />
@@ -40,7 +41,7 @@
 				</div>
 				<a href="mailto:" style="width: 100%;"><button style="width: 100%; background-color: red;">>send it!<</button></a>
 			</div>
-			<div class="rightBar full" id="rightBar">
+			<div class="rightBar full" id="rightBar" style="display: none;">
 				<button id="addEvent" class="staggeredButtons" style="background-color: red;">Add Event</button>
 				<div class="titleBorder" style="font-weight: bold;"><?php echo $rightBar; ?></div>
 				<br />
