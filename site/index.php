@@ -30,14 +30,14 @@
 			<div class="mainBody full" id="body">
 				<div class=""> 
 					<table style="width: 100%;"> <tr>
-						<td><div id="showHidePeople" class="button">show/hide people</div></td>
-						<td><h3 class=""><?php echo $viewportTitle; ?></h3></td>
-						<td><div id="showHideEvents" class="button">show/hide events</div></td>
+						<td><div id="showHidePeople" class="button" style="display: none;">show/hide people</div></td>
+						<td><h3 class="titleCenter"><?php echo $viewportTitle; ?></h3></td>
+						<td><div id="showHideEvents" class="button" style="display: none;">show/hide events</div></td>
 					</tr></table>
 				</div>
 				<div id="dueToday"></div>
 				<div>
-					<textarea style="display: flex; height: 85vh; width: 100%; background-color: #1D252B; color: white;"></textarea>
+					<textarea style="display: none; height: 85vh; width: 100%; background-color: #1D252B; color: white;"></textarea>
 				</div>
 				<a href="mailto:" style="width: 100%; display: none;"><button style="width: 100%; background-color: red;">>send it!<</button></a>
 			</div>
