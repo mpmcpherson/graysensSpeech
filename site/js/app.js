@@ -367,14 +367,17 @@ function loadUI(){
 
   //swap between all events, and events 
 }
-function loadWord(){
-
+function loadWords(){
+  postRequest('resources/loadWords.php',
+  function(result){},
+  function(result){},
+  null);
 }
 
 
 docReady(function() {
-  globalClickListener();
-  keypressListener();
+  //globalClickListener();
+  //keypressListener();
 
   loadUI();
 
