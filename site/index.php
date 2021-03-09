@@ -47,24 +47,22 @@
 					<div class="full" id="wordReceptacleContainer">
 						<h2>Word Bay</h2><br/>
 
-						<table class="full" style="width: 100%;"> <tr>
-						<td> <h3 style="height: 1em; display: block !important; width: 100%">noun</h3></td>
-						<td> <h3 style="height: 1em; display: block !important; width: 100%">verb</h3></td>
-						<td> <h3 style="height: 1em; display: block !important; width: 100%">adjective</h3></td>
-						<td> <h3 style="height: 1em; display: block !important; width: 100%">article</h3></td>
+						<table class="full" style="width: 100%;"> 
+						<tr>
+							<td> <h3 style="height: 1em; display: block !important; width: 100%">noun</h3></td>
+							<td> <h3 style="height: 1em; display: block !important; width: 100%">verb</h3></td>
+							<td> <h3 style="height: 1em; display: block !important; width: 100%">adjective</h3></td>
+							<td> <h3 style="height: 1em; display: block !important; width: 100%">adverb</h3></td>
 						</tr>
 						<tr class="full">
-						<td id="noun" class="full" ondrop="drop(event)" ondragover="allowDrop(event)" style="vertical-align: top"></td>
-						<td id="verb" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
-						<td id="adjective" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
-						<td id="article" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
-						</tr></table>
-						
+							<td id="noun" class="full" ondrop="drop(event)" ondragover="allowDrop(event)" style="vertical-align: top"></td>
+							<td id="verb" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
+							<td id="adjective" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
+							<td id="adverb" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
+						</tr>
+						</table>
 					</div>
-
 				</div>
-
-				<a href="mailto:" style="width: 100%; display: none;"><button style="width: 100%; background-color: red;">>send it!<</button></a>
 			</div>
 			<div class="rightBar full" id="rightBar" style="display: none;">
 				<button id="addEvent" class="staggeredButtons" style="background-color: red;">Add Event</button>
