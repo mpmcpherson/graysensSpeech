@@ -35,14 +35,35 @@
 						<td><div id="showHideEvents" class="button" style="display: none;">show/hide events</div></td>
 					</tr></table>
 				</div>
-				<div>
+				<div class="full">
 					<div id="wordBank" ondrop="drop(event)" ondragover="allowDrop(event)">
+						<h2>Word Bank</h2><br/>
+						<div id="yo" draggable="true" ondragstart="drag(event)">yo</div>
+
 						<!--for each word element <div id="drag1" draggable="true" ondragstart="drag(event)"> </div>-->
 
 					</div>
-					<div id="partsOfSpeechBank" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-					<textarea style="display: none; height: 85vh; width: 100%; background-color: #1D252B; color: white;"></textarea>
+
+					<div class="full" id="wordReceptacleContainer">
+						<h2>Word Bay</h2><br/>
+
+						<table class="full" style="width: 100%;"> <tr>
+						<td> <h3 style="height: 1em; display: block !important; width: 100%">noun</h3></td>
+						<td> <h3 style="height: 1em; display: block !important; width: 100%">verb</h3></td>
+						<td> <h3 style="height: 1em; display: block !important; width: 100%">adjective</h3></td>
+						<td> <h3 style="height: 1em; display: block !important; width: 100%">article</h3></td>
+						</tr>
+						<tr class="full">
+						<td id="noun" class="full" ondrop="drop(event)" ondragover="allowDrop(event)" style="vertical-align: top"></td>
+						<td id="verb" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
+						<td id="adjective" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
+						<td id="article" ondrop="drop(event)" ondragover="allowDrop(event)" class="full" style="vertical-align: top"></td>
+						</tr></table>
+						
+					</div>
+
 				</div>
+
 				<a href="mailto:" style="width: 100%; display: none;"><button style="width: 100%; background-color: red;">>send it!<</button></a>
 			</div>
 			<div class="rightBar full" id="rightBar" style="display: none;">

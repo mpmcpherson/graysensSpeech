@@ -339,11 +339,11 @@ function loadUI(){
 
   let uid = getCookie(document.cookie, "userid");
 
-  loadPeople(uid, "array_of_people");
+  //loadPeople(uid, "array_of_people");
 
-  loadTodaysPeople(uid, "array_of_people_today");
+  //loadTodaysPeople(uid, "array_of_people_today");
 
-  loadAllEvents(uid, "array_of_events");
+  //loadAllEvents(uid, "array_of_events");
 
 
 
