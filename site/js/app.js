@@ -369,8 +369,8 @@ function loadUI(){
 }
 function loadWords(){
   postRequest('resources/loadWords.php',
-  function(result){},
-  function(result){},
+  function(result){console.log(result);},
+  function(result){console.log(result);},
   null);
 }
 
@@ -378,7 +378,7 @@ function loadWords(){
 docReady(function() {
   //globalClickListener();
   //keypressListener();
-
+  loadWords();
   loadUI();
 
 });
