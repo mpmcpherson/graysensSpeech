@@ -369,7 +369,24 @@ function loadUI(){
 }
 function loadWords(){
   postRequest('resources/loadWords.php',
-  function(result){console.log(result);},
+  function(result){
+    //console.log(result);
+    let res = JSON.parse(result);
+    let target=document.getElementById('wordBank');
+
+    for(let i=0;i<res.count;i++){
+      for(let j=0;j<i.count;j++){
+        console.log(res[i][j]);        
+        let specWord = document.createElement("div").appendChild(document.createTextNode(res[i][j]));
+        specWord.setAttribute(id=res[i][j]);
+        specWord.setAttribute(draggable='true');
+        specWord.setAttribute(ondragstart='drag(event)');
+        target.appendChild(specWord)
+
+      }
+    }
+    let s = "";
+  },
   function(result){console.log(result);},
   null);
 }

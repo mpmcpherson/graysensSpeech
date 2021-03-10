@@ -38,7 +38,7 @@
 				<div class="full">
 					<div id="wordBank" ondrop="drop(event)" ondragover="allowDrop(event)">
 						<h2>Word Bank</h2><br/>
-						<div id="yo" draggable="true" ondragstart="drag(event)">yo</div>
+						
 
 						<!--for each word element <div id="drag1" draggable="true" ondragstart="drag(event)"> </div>-->
 
