@@ -373,23 +373,30 @@ function loadWords(){
     //console.log(result);
     let res = JSON.parse(result);
     let target=document.getElementById('wordBank');
-    console.log(res);
+    //console.log(res);
     for(let i=0;i<res.length;i++){
       for(let j=0;j<10;j++){
         let rand = Math.floor((Math.random() * res[i].length));
 
-        console.log(res[i][rand]);        
+        //console.log(res[i][rand]);        
         let wordActual = document.createTextNode(res[i][rand]);
         let specWord = document.createElement("h3")
-        specWord.id=res[i][j];
+        specWord.id=res[i][rand];
         specWord.draggable='true';
-        specWord.addEventListener('dragstart',function(){drag(event);});
         specWord.style='display: inline-flex; margin: 3px; cursor: grabbing; border: 4px solid black; border-radius: 5px;';
+        if(i===0){specWord.setAttribute('target',"noun");}
+        if(i===1){specWord.setAttribute('target',"verb");}
+        if(i===2){specWord.setAttribute('target',"adjective");}
+        if(i===3){specWord.setAttribute('target',"adverb");}
+        specWord.addEventListener('dragstart',function(){
+          drag(event);          
+        });
         specWord.appendChild(wordActual);
         target.appendChild(specWord)
-        console.log(specWord);
+        //console.log(specWord);
 
       }
+      
     }
     let s = "";
   },
