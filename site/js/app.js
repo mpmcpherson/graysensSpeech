@@ -379,29 +379,64 @@ function loadWords(){
         let rand = Math.floor((Math.random() * res[i].length));
 
         //console.log(res[i][rand]);        
-        let wordActual = document.createTextNode(res[i][rand]);
+        //let wordActual = document.createTextNode(res[i][rand]);
         let specWord = document.createElement("h3")
         specWord.id=res[i][rand];
-        specWord.draggable='true';
-        specWord.style='display: inline-flex; margin: 3px; cursor: grabbing; border: 4px solid black; border-radius: 5px;';
+        specWord.textContent = res[i][rand];
         if(i===0){specWord.setAttribute('target',"noun");}
         if(i===1){specWord.setAttribute('target',"verb");}
         if(i===2){specWord.setAttribute('target',"adjective");}
         if(i===3){specWord.setAttribute('target',"adverb");}
-        specWord.addEventListener('dragstart',function(){
-          drag(event);          
-        });
-        specWord.appendChild(wordActual);
+        //specWord.appendChild(wordActual);
         target.appendChild(specWord)
         //console.log(specWord);
 
       }
       
     }
-    let s = "";
+
+
+    var divs = Array.from(target.getElementsByTagName('h3'));
+    console.log(divs);
+    for(var i = 0; i < divs.length; i++) {
+      target.removeChild(divs[i]);
+    }
+    
+    divs=shuffle(divs);    
+    
+    for(var i = 0; i < divs.length; i++) {
+      let outRand = divs[i].cloneNode(true);
+      outRand.draggable='true';
+      outRand.style='display: inline-flex; margin: 3px; cursor: grabbing; border: 4px solid black; border-radius: 5px;';
+      
+      outRand.addEventListener('dragstart',function(){
+        drag(event);          
+      });
+      target.appendChild(outRand);
+    }
+
   },
   function(result){console.log(result);},
   null);
+}
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
 }
 
 
