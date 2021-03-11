@@ -373,15 +373,21 @@ function loadWords(){
     //console.log(result);
     let res = JSON.parse(result);
     let target=document.getElementById('wordBank');
+    console.log(res);
+    for(let i=0;i<res.length;i++){
+      for(let j=0;j<10;j++){
+        let rand = Math.floor((Math.random() * res[i].length));
 
-    for(let i=0;i<res.count;i++){
-      for(let j=0;j<i.count;j++){
-        console.log(res[i][j]);        
-        let specWord = document.createElement("div").appendChild(document.createTextNode(res[i][j]));
-        specWord.setAttribute(id=res[i][j]);
-        specWord.setAttribute(draggable='true');
-        specWord.setAttribute(ondragstart='drag(event)');
+        console.log(res[i][rand]);        
+        let wordActual = document.createTextNode(res[i][rand]);
+        let specWord = document.createElement("h3")
+        specWord.id=res[i][j];
+        specWord.draggable='true';
+        specWord.addEventListener('dragstart',function(){drag(event);});
+        specWord.style='display: inline-flex; margin: 3px; cursor: grabbing; border: 4px solid black; border-radius: 5px;';
+        specWord.appendChild(wordActual);
         target.appendChild(specWord)
+        console.log(specWord);
 
       }
     }
