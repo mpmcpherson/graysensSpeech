@@ -17,20 +17,6 @@ function drag(ev) {
   ev.dataTransfer.setData("text", ev.target.id);
 }
 
-function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    var appDiv = document.getElementById(data);
-    ev.target.appendChild(appDiv);
-
-    var actualTargetValue = appDiv.getAttribute('target');
-    if(actualTargetValue===event.target.id)
-    {
-        appDiv.style = "display: inline-flex; margin: 3px; cursor: grabbing; border: 4px solid green; border-radius: 5px;";
-    }else{
-        appDiv.style = "display: inline-flex; margin: 3px; cursor: grabbing; border: 4px solid red; border-radius: 5px;";
-    }
-}
 
 // helper function for cross-browser request object
 function getRequest(url, success, error, params) {
