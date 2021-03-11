@@ -49,10 +49,10 @@
 
 						<table class="full" style="width: 100%;"> 
 						<tr>
-							<td> <h3 style="height: 1em; display: block !important; width: 100%">noun</h3></td>
-							<td> <h3 style="height: 1em; display: block !important; width: 100%">verb</h3></td>
-							<td> <h3 style="height: 1em; display: block !important; width: 100%">adjective</h3></td>
-							<td> <h3 style="height: 1em; display: block !important; width: 100%">adverb</h3></td>
+							<td> <h3 style="height: 1em; display: block !important; width: 100%">noun </h3>(people, places, things, ideas)</td>
+							<td> <h3 style="height: 1em; display: block !important; width: 100%">verb </h3>(things you do or things that happen)</td>
+							<td> <h3 style="height: 1em; display: block !important; width: 100%">adjective</h3> (how something is: "soft", "yellow", "scared", and "important" are adjectives)</td>
+							<td> <h3 style="height: 1em; display: block !important; width: 100%">adverb</h3> (the way something happens: "softly", "slowly", "kindly", and "rudely" are adverbs)</td>
 						</tr>
 						<tr class="full">
 							<td id="noun" class="full" ondrop="drop(event)" ondragover="allowDrop(event)" style="vertical-align: top"></td>
