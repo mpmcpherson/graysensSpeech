@@ -6,19 +6,19 @@ function loadWords(){
     let res = JSON.parse(result);
     let target=document.getElementById('wordBank');
     //console.log(res);
-    for(let i=0;i<res.length;i++){
-      for(let j=0;j<10;j++){
-        let rand = Math.floor((Math.random() * res[i].length));
+    for(let partsOfSpeech=0;partsOfSpeech<res.length;partsOfSpeech++){
+      for(let wordsInParts=0;wordsInParts<10;wordsInParts++){
+        let rand = Math.floor((Math.random() * res[partsOfSpeech].length));
 
         //console.log(res[i][rand]);        
         //let wordActual = document.createTextNode(res[i][rand]);
         let specWord = document.createElement("h3")
-        specWord.id=res[i][rand];
-        specWord.textContent = res[i][rand];
-        if(i===0){specWord.setAttribute('target',"noun");}
-        if(i===1){specWord.setAttribute('target',"verb");}
-        if(i===2){specWord.setAttribute('target',"adjective");}
-        if(i===3){specWord.setAttribute('target',"adverb");}
+        specWord.id=res[partsOfSpeech][rand];
+        specWord.textContent = res[partsOfSpeech][rand];
+        if(partsOfSpeech===0){specWord.setAttribute('target',"noun");}
+        if(partsOfSpeech===1){specWord.setAttribute('target',"verb");}
+        if(partsOfSpeech===2){specWord.setAttribute('target',"adjective");}
+        if(partsOfSpeech===3){specWord.setAttribute('target',"adverb");}
         //specWord.appendChild(wordActual);
         target.appendChild(specWord)
         //console.log(specWord);
@@ -30,14 +30,14 @@ function loadWords(){
 
     var divs = Array.from(target.getElementsByTagName('h3'));
     console.log(divs);
-    for(var i = 0; i < divs.length; i++) {
-      target.removeChild(divs[i]);
+    for(var divPull = 0; divPull < divs.length; divPull++) {
+      target.removeChild(divs[divPull]);
     }
     
     divs=shuffle(divs);    
     
-    for(var i = 0; i < divs.length; i++) {
-      let outRand = divs[i].cloneNode(true);
+    for(var shuffleOut = 0; shuffleOut < divs.length; shuffleOut++) {
+      let outRand = divs[shuffleOut].cloneNode(true);
       outRand.draggable='true';
       outRand.style='display: inline-flex; margin: 3px; cursor: grabbing; border: 4px solid black; border-radius: 5px;';
       
