@@ -136,47 +136,21 @@
 	"buffers":
 	[
 		{
-			"file": "site/js/app.js",
+			"contents": "I LOVE YOU!!\nI love you, too, Buddy! If I ordered food for lunch today, would like food from McDonalds? Are you excited for McDonald's Buddy? Michael!\n\n",
 			"settings":
 			{
-				"buffer_size": 11804,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/resources/trimmerdNouns",
-			"settings":
-			{
-				"buffer_size": 4054,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/resources/verbs",
-			"settings":
-			{
-				"buffer_size": 2845,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "site/resources/adverbs",
-			"settings":
-			{
-				"buffer_size": 840,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "I LOVE YOU!!\nI love you, too, Buddy! If I ordered food for lunch today, would like food from McDonalds? Are you excited for McDonald's Buddy Michael!\n\n",
-			"settings":
-			{
-				"buffer_size": 151,
+				"buffer_size": 152,
 				"line_ending": "Unix",
 				"name": "I LOVE YOU!!"
+			}
+		},
+		{
+			"file": "/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch.txt",
+			"settings":
+			{
+				"buffer_size": 105422,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -200,7 +174,7 @@
 			"file": "site/index.php",
 			"settings":
 			{
-				"buffer_size": 6540,
+				"buffer_size": 6709,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -378,6 +352,11 @@
 	],
 	"file_history":
 	[
+		"/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch.txt",
+		"/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch~~previous-1.txt",
+		"/home/michael/src/graysensSpeech/site/resources/verbs",
+		"/home/michael/src/graysensSpeech/site/js/app.js",
+		"/home/michael/src/graysensSpeech/site/resources/trimmerdNouns",
 		"/home/michael/src/graysensSpeech/site/resources/uiConfig.php",
 		"/home/michael/src/bastionsrc/homepage/site/favicon.gif",
 		"/home/michael/src/bastionsrc/homepage/site/favicon.ico",
@@ -500,12 +479,7 @@
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/loremTypical",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/pirateIpsum",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/worseHipster",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/lorem1.txt",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/kafka.txt",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/hipSum.txt",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/LatinCicero",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/EnglishCicero",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/resources/linkLoader.php"
+		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/lorem1.txt"
 	],
 	"find":
 	{
@@ -523,6 +497,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fuel ",
+			"fuel",
+			"planet",
 			"List of verbs that start with .+ verbs examples.",
 			"List of verbs that start with .+ with verb examples",
 			"\\nList of verbs that start with .+ with verb examples\\.\\n\\n",
@@ -554,135 +531,15 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "site/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11804,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11708,
-								11708
-							]
-						],
-						"settings":
-						{
-							"function_name_status_row": 373,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4760.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "site/resources/trimmerdNouns",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4054,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"function_name_status_row": 24,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "site/resources/verbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2845,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"function_name_status_row": 10,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "site/resources/adverbs",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 840,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"function_name_status_row": 0,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 151,
+						"buffer_size": 152,
 						"regions":
 						{
 						},
@@ -697,18 +554,48 @@
 						{
 							"auto_name": "I LOVE YOU!!",
 							"default_dir": "/home/michael/src/graysensSpeech/site/js",
-							"function_name_status_row": 3,
+							"function_name_status_row": 2,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 1,
+					"file": "/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9548,
+								9548
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 501,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9021.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "/home/michael/repo token",
 					"semi_transient": false,
 					"settings":
@@ -733,11 +620,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
@@ -763,16 +650,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 4,
 					"file": "site/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6540,
+						"buffer_size": 6709,
 						"regions":
 						{
 						},
@@ -793,7 +680,7 @@
 						"translation.y": 577.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
