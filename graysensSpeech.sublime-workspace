@@ -136,45 +136,58 @@
 	"buffers":
 	[
 		{
-			"contents": "I LOVE YOU!!\nI love you, too, Buddy! If I ordered food for lunch today, would like food from McDonalds? Are you excited for McDonald's Buddy? Michael!\n\n",
+			"file": "site/js/I LOVE YOU!!",
 			"settings":
 			{
-<<<<<<< HEAD
-				"buffer_size": 152,
+				"buffer_size": 758,
+				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "I LOVE YOU!!"
-=======
-				"buffer_size": 2924,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
 			}
 		},
 		{
 			"file": "/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch.txt",
 			"settings":
 			{
-				"buffer_size": 105422,
+				"buffer_size": 110972,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-<<<<<<< HEAD
-			"file": "/home/michael/repo token",
-=======
-			"file": "site/resources/adverbs",
+			"file": "/home/michael/.local/share/endless-sky/saves/mods.txt",
 			"settings":
 			{
-				"buffer_size": 840,
-				"line_ending": "Unix"
+				"buffer_size": 133419,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "pilot Ilya Petrovitch"
 			}
 		},
 		{
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
+			"file": "/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch~~twk.txt",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 133419,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "pilot Ilya Petrovitch"
+			}
+		},
+		{
+			"contents": "ship Archon\n\t\t\tname \"Sleeping Dragon\"\n\t\t\tnoun entity\n\t\t\tsprite ship/archon\n\t\t\t\t\"frame rate\" 0.86999997\n\t\t\t\"never disabled\"\n\t\t\tattributes\n\t\t\t\tcategory \"Heavy Warship\"\n\t\t\t\tcost 1000000000\n\t\t\t\tbunks 1\n\t\t\t\tcloak 0.04\n\t\t\t\tdrag 27\n\t\t\t\t\"energy capacity\" 10000\n\t\t\t\t\"energy generation\" 500\n\t\t\t\t\"engine capacity\" 200\n\t\t\t\t\"fuel capacity\" 800\n\t\t\t\t\"gun ports\" 1\n\t\t\t\t\"heat dissipation\" 40\n\t\t\t\t\"heat generation\" 17\n\t\t\t\thull 1000000\n\t\t\t\t\"hull energy\" 100\n\t\t\t\t\"hull repair rate\" 100\n\t\t\t\tmass 1000\n\t\t\t\t\"outfit space\" 800\n\t\t\t\tramscoop 100\n\t\t\t\t\"required crew\" 1\n\t\t\t\t\"shield energy\" 100\n\t\t\t\t\"shield generation\" 100\n\t\t\t\tshields 4000000\n\t\t\t\t\"turret mounts\" 8\n\t\t\t\t\"weapon capacity\" 600\n\t\t\toutfits\n\t\t\t\t\"Medium Graviton Thruster\"\n\t\t\t\tHyperdrive\n\t\t\t\t\"Medium Graviton Steering\"\n\t\t\t\t\"Jump Drive\"\n\t\t\t\t\"Drak Distancer\" 2\n\t\t\t\t\"Drak Draining Field\"\n\t\t\t\t\"Drak Antimatter Cannon\"\n\t\t\t\t\"Drak Anti-Missile Field\" 2\n\t\t\t\t\"Drak Turret\" 3\n\t\t\tcrew 1\n\t\t\tfuel 800\n\t\t\tshields 4000000\n\t\t\thull 1000000\n\t\t\tposition -1855.7887 524.7792\n\t\t\tengine -17 92 1\n\t\t\tengine 17 92 1\n\t\t\tgun 0 -74 \"Drak Antimatter Cannon\"\n\t\t\tturret 0 -10 \"Drak Anti-Missile Field\"\n\t\t\tturret 0 -10 \"Drak Anti-Missile Field\"\n\t\t\tturret 0 -10 \"Drak Draining Field\"\n\t\t\tturret -40 -13 \"Drak Turret\"\n\t\t\tturret 40 -13 \"Drak Turret\"\n\t\t\tturret 0 81 \"Drak Turret\"\n\t\t\tturret -55 16 \"Drak Distancer\"\n\t\t\tturret 55 16 \"Drak Distancer\"\n\t\t\texplode \"nuke explosion\" 3",
+			"settings":
+			{
+				"buffer_size": 1371,
+				"line_ending": "Unix",
+				"name": "ship Archon"
+			}
+		},
+		{
+			"file": "/home/michael/repo token",
+			"settings":
+			{
+				"buffer_size": 40,
 				"line_ending": "Unix"
 			}
 		},
@@ -192,6 +205,15 @@
 			"settings":
 			{
 				"buffer_size": 6709,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/michael/index.html",
+			"settings":
+			{
+				"buffer_size": 7444,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -361,21 +383,19 @@
 	},
 	"expanded_folders":
 	[
-		"/home/michaelmcpherson/src/partsOfSpeech"
+		"/home/michael/src/graysensSpeech",
+		"/home/michael/src/graysensSpeech/site",
+		"/home/michael/src/graysensSpeech/site/css",
+		"/home/michael/src/graysensSpeech/site/js",
+		"/home/michael/src/graysensSpeech/site/resources"
 	],
 	"file_history":
 	[
-<<<<<<< HEAD
 		"/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch.txt",
 		"/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch~~previous-1.txt",
 		"/home/michael/src/graysensSpeech/site/resources/verbs",
 		"/home/michael/src/graysensSpeech/site/js/app.js",
 		"/home/michael/src/graysensSpeech/site/resources/trimmerdNouns",
-=======
-		"/home/michaelmcpherson/I LOVE YOU!!",
-		"/home/michael/repo token",
-		"/home/michaelmcpherson/src/partsOfSpeech/site/resources/trimmerdNouns",
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
 		"/home/michael/src/graysensSpeech/site/resources/uiConfig.php",
 		"/home/michael/src/bastionsrc/homepage/site/favicon.gif",
 		"/home/michael/src/bastionsrc/homepage/site/favicon.ico",
@@ -386,6 +406,7 @@
 		"/home/michael/src/graysensSpeech/site/resources/wpa_supplicant.conf",
 		"/home/michael/src/mpmcpherson/resources/config.php",
 		"/home/michael/src/mpmcpherson/resources/defaultConnector.php",
+		"/home/michael/repo token",
 		"/home/michael/src/webvacuum/vacuum.php",
 		"/home/michael/nas1.ovpn",
 		"/home/michael/src/gitrecurse/gitLoc.sh",
@@ -497,18 +518,11 @@
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/loremTypical",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/pirateIpsum",
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/worseHipster",
-<<<<<<< HEAD
 		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/lorem1.txt"
-=======
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/lorem1.txt",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/kafka.txt",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/hipSum.txt",
-		"/home/michaelmcpherson/src/clientSideBlogger/bloggingClientBase/frontEnd/posts/LatinCicero"
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -522,6 +536,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hull",
+			"position",
 			"fuel ",
 			"fuel",
 			"planet",
@@ -556,129 +572,177 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-<<<<<<< HEAD
+					"file": "site/js/I LOVE YOU!!",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 152,
-=======
-					"file": "site/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2924,
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
+						"buffer_size": 758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-								151,
-								151
-=======
-								1407,
-								1407
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
+								758,
+								758
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
 							"auto_name": "I LOVE YOU!!",
-							"default_dir": "/home/michael/src/graysensSpeech/site/js",
-							"function_name_status_row": 2,
+							"function_name_status_row": 11,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
-=======
-							"auto_complete": false,
-							"function_name_status_row": 373,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 1,
-=======
-					"stack_index": 0,
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-<<<<<<< HEAD
 					"file": "/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch.txt",
-=======
-					"file": "site/resources/verbs",
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 105422,
+						"buffer_size": 110972,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9548,
-								9548
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"function_name_status_row": 501,
+							"function_name_status_row": 33,
 							"syntax": "Packages/Text/Plain text.tmLanguage",
-<<<<<<< HEAD
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9021.0,
+						"translation.y": 3.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/home/michael/repo token",
-=======
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+					"file": "/home/michael/.local/share/endless-sky/saves/mods.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130387,
+								130387
+							]
+						],
+						"settings":
+						{
+							"auto_name": "pilot Ilya Petrovitch",
+							"function_name_status_row": 4392,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 84771.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/michael/.local/share/endless-sky/saves/Ilya Petrovitch~~twk.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133419,
+								133419
+							]
+						],
+						"settings":
+						{
+							"auto_name": "pilot Ilya Petrovitch",
+							"function_name_status_row": 4421,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84771.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "site/resources/adverbs",
-					"semi_transient": true,
+					"buffer": 4,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 840,
+						"buffer_size": 1371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								235,
-								235
+								1371,
+								1371
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ship Archon",
+							"default_dir": "/home/michael/.local/share/endless-sky/saves",
+							"function_name_status_row": 57,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 88.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/michael/repo token",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
 							]
 						],
 						"settings":
@@ -694,40 +758,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/home/michaelmcpherson/src/partsOfSpeech/site/resources",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-<<<<<<< HEAD
-					"buffer": 3,
-=======
-					"buffer": 4,
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
+					"buffer": 6,
 					"semi_transient": false,
 					"settings":
 					{
@@ -738,8 +769,8 @@
 						"selection":
 						[
 							[
-								146,
-								146
+								49,
+								49
 							]
 						],
 						"settings":
@@ -753,19 +784,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-=======
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
+					"buffer": 7,
 					"file": "site/index.php",
 					"semi_transient": false,
 					"settings":
@@ -777,25 +800,52 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1696,
+								1696
 							]
 						],
 						"settings":
 						{
-							"function_name_status_row": 48,
+							"function_name_status_row": 51,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 577.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 3,
-=======
-					"stack_index": 4,
->>>>>>> f0175977aa55d661d52a3f21701b3cad8d1ecf97
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/michael/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 12,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -864,7 +914,7 @@
 	"project": "graysensSpeech.sublime-project",
 	"replace":
 	{
-		"height": 71.0
+		"height": 73.0
 	},
 	"save_all_on_build": true,
 	"select_file":
